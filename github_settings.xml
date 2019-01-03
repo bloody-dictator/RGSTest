@@ -1,0 +1,7 @@
+<application>
+  <component name="GithubAccounts">
+    <account id="f3feb38b-61a8-4380-9bb6-ef858fb43e41" name="bloody-dictator">
+      <server host="github.com" />
+    </account>
+  </component>
+</application>
