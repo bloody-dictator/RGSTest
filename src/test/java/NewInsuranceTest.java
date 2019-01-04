@@ -4,13 +4,7 @@ import org.openqa.selenium.support.ui.*;
 
 import java.util.concurrent.*;
 
-/**
- * Created by IntelliJ IDEA.<br>
- * User: Alexey<br>
- * Date: 17.09.2018<br>
- * Time: 17:24<br>
- * todo javadoc
- */
+
 public class NewInsuranceTest extends BaseTest {
 
 

@@ -5,13 +5,7 @@ import org.openqa.selenium.chrome.*;
 import java.util.*;
 import java.util.concurrent.*;
 
-/**
- * Created by IntelliJ IDEA.<br>
- * User: Alexey<br>
- * Date: 17.09.2018<br>
- * Time: 18:41<br>
- * todo javadoc
- */
+
 public class BaseTest {
     public static TestProperties testProperties = new TestProperties();
     public  static Properties properties = testProperties.properties;
