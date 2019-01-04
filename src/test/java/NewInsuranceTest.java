@@ -10,7 +10,6 @@ public class NewInsuranceTest extends BaseTest {
 
     @org.junit.Test
     public void testInsurance()  {
-        //System.setProperty("webdriver.chrome.driver", "drv/chromedriver.exe");
         Wait<WebDriver> wait = new WebDriverWait(driver, 5, 1000);
         driver.findElement(By.xpath("//li[@class = \"dropdown adv-analytics-navigation-line1-link current\"]/a[contains (text(), \"Страхование\")]")).click();
         driver.findElement(By.xpath("//*[@class =\"adv-analytics-navigation-line3-link\"]/a[contains(text(), \"ДМС\")]")).click();
@@ -18,7 +17,6 @@ public class NewInsuranceTest extends BaseTest {
         WebElement sendButton = driver.findElement(By.xpath("//a[contains(text(), \"Отправить заявку\")]"));
 
         wait.until(ExpectedConditions.visibilityOf(sendButton)).click();
-        //driver.findElement(By.xpath("//a[contains(text(), \"Отправить заявку\")]")).click();
         WebElement title = driver.findElement(By.xpath("//*[contains(text(), \"Заявка\")]"));
         wait.until(ExpectedConditions.visibilityOf(title));
         Assert.assertEquals("Заявка на добровольное медицинское страхование",title.getText());
